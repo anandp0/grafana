@@ -46,4 +46,4 @@ properties:
 
   GF_SERVER_ROOT_URL: https://qa-dev-grafana-7-0.lowtouchcloud.io/
 
-  revision: 12
+  revision: 13
