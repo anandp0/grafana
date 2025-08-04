@@ -11,7 +11,7 @@ build:
     image_template: grafana-12.0
     
 deploy:
-    context: athulecloud-1207/DEV
+    context: anandp0/DEV
     type: statefulset
     replicas: 1
     port:
