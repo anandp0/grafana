@@ -24,8 +24,8 @@ volumes:
     size: 5Gi
 
 properties:
-    ADMIN_PASSWORD: Admin 
-       #vault: ADMIN_PASSWORD
+    ADMIN_PASSWORD: 
+       vault: ADMIN_PASSWORD
     PROM_URL: http://prometheus-2-17:9090/
     GF_AUTH_GENERIC_OAUTH_ENABLED: true
     GF_AUTH_GENERIC_OAUTH_NAME: AppZ 
